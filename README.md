@@ -31,11 +31,18 @@ cd YT-Shorts-Upload-Scheduler
 
 ### Setting Up Your Workspace
 
-1. **Download TikTok Videos:** Use the Mass TikTok Video Downloader to download videos without watermarks.
+1. **Download TikTok Videos:** Use the Mass TikTok Video Downloader extension to download videos without watermarks.
+   Download the extension here [Mass Tiktok Video Downloader](https://chromewebstore.google.com/detail/mass-tiktok-video-downloa/oaceepljpkcbcgccnmlepeofkhplkbih?hl=en)
+   - Open TikTok on your Google Chrome browserand Sign-in [TikTok](https://www.tiktok.com/)
+   - Select a TikTok profile of your choice and go to their profile homepage
+   - Once your extension is added, you should see a logo with 'Download All'
+   - Click this to download their videos
+   - Once downloaded zip file is extracted copy over those files to \`profile_vids_1\`
    - Place videos from one TikTok profile in the \`profile_vids_1\` folder.
    - If you have videos from another profile, place them in the \`profile_vids_2\` folder (or any other folder you wish to name).
+   - Ensure each profile has a folder for their own within the project workspace and name them accordingly. Do not forget to change the directory name in any programming file.
 
-2. **Set Up Google Cloud Credentials:**
+3. **Set Up Google Cloud Credentials:**
    - Go to the [Google Cloud Console](https://console.cloud.google.com/).
    - Create a new project and enable the **YouTube Data API v3**.
    - Navigate to **API & Services > Credentials** and create new credentials.
