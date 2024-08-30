@@ -23,10 +23,10 @@ This project automates the growth of a YouTube channel through the regular uploa
 
 First, clone this repository to your local machine:
 
-\`\`\`bash
+Run these commands:
+
 git clone https://github.com/yourusername/YT-Shorts-Upload-Scheduler.git
 cd YT-Shorts-Upload-Scheduler
-\`\`\`
 
 ### Setting Up Your Workspace
 
@@ -48,9 +48,7 @@ To clean up the names of your video files:
 1. Open the \`rename_files.py\` script and specify the directory containing your video files.
 2. In your terminal, run:
 
-   \`\`\`bash
    python3 rename_files.py
-   \`\`\`
 
    - This will remove unnecessary text from the video filenames.
    - Re-run the script until the filenames contain only the title and hashtags.
