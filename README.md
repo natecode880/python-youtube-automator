@@ -25,7 +25,7 @@ First, clone this repository to your local machine:
 
 Run these commands:
 ```console
-git clone https://github.com/yourusername/YT-Shorts-Upload-Scheduler.git
+git clone https://github.com/natecode880/YT-Shorts-Upload-Scheduler.git
 cd YT-Shorts-Upload-Scheduler
 ```
 
@@ -61,9 +61,9 @@ After renaming, shuffle the videos to prepare them for upload:
 1. Open the \`shuffle_videos.py\` script.
 2. In your terminal, run:
 
-   \`\`\`bash
+   ```console
    python3 shuffle_videos.py
-   \`\`\`
+   ```
 
    - The script will combine and shuffle videos from different folders into a new folder.
 
@@ -73,9 +73,9 @@ After renaming, shuffle the videos to prepare them for upload:
 2. Add as many fixed hashtags as needed. The script will also remove TikTok-specific hashtags like \`#fyp\`.
 3. In your terminal, run:
 
-   \`\`\`bash
+   ```console
    python3 prepare_uploads.py
-   \`\`\`
+   ```
 
    - The processed videos will be copied to the \`ready_uploads\` folder.
 
@@ -86,9 +86,9 @@ Now that your videos are ready:
 1. Open the \`schedule_videos.py\` script.
 2. In your terminal, run:
 
-   \`\`\`bash
+   ```console
    python3 schedule_videos.py
-   \`\`\`
+   ```
 
    - Set your preferred upload interval (e.g., 4 hours or 240 minutes).
    - You'll be redirected to sign in with your Google account linked to your YouTube channel.
